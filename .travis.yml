@@ -5,8 +5,6 @@ env:
   global:
     - ANDROID_BUILD_TOOLS=build-tools-19.0.3
   matrix:
-    - ANDROID_SDK=android-17 ANDROID_TARGET=android-17
-    - ANDROID_SDK=android-18 ANDROID_TARGET=android-18
     - ANDROID_SDK=android-19 ANDROID_TARGET=android-19
 
 before_install:
